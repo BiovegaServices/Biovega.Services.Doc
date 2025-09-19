@@ -14,7 +14,7 @@ url: "https://biovega.github.io"
 
 # Base URL must match the repository name (with a leading slash)
 # If your repo is named biovega-services-docs:
-baseurl: "/biovega-services-docs"
+baseurl: "/biovega.services.docs"
 
 # -----------------------------------------------------------
 # Navigation & appearance
