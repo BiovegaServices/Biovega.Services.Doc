@@ -22,7 +22,7 @@ baseurl: "/biovega.services.docs"
 search_enabled: true           # Enables built-in search
 color_scheme: light            # light or dark
 nav_sort: case_insensitive     # Sort navigation items alphabetically
-logo: "/assets/images/biovega-logo.png" # Optional: add your logo to the header
+#logo: "/assets/images/biovega-logo.png" # Optional: add your logo to the header
 
 # -----------------------------------------------------------
 # Header links (top-right)
