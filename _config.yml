@@ -5,4 +5,4 @@ baseurl: "/biovega.services.docs"
 
 just_the_docs:
   custom_css:
-    /assets/css/custom.css
+    /assets/CSS/custom.css
