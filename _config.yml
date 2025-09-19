@@ -4,52 +4,7 @@
 
 title: "Biovega Services"
 description: "Official documentation for Biovega d.o.o. digital services"
-remote_theme: just-the-docs/just-the-docs
 
-# -----------------------------------------------------------
-# GitHub Pages configuration
-# -----------------------------------------------------------
-# URL of your GitHub Pages site
-url: "https://biovega.github.io"
-
-# Base URL must match the repository name (with a leading slash)
-# If your repo is named biovega-services-docs:
-baseurl: "/biovega.services.docs"
-
-# -----------------------------------------------------------
-# Navigation & appearance
-# -----------------------------------------------------------
-search_enabled: true           # Enables built-in search
-color_scheme: light            # light or dark
-nav_sort: case_insensitive     # Sort navigation items alphabetically
-#logo: "/assets/images/biovega-logo.png" # Optional: add your logo to the header
-
-# -----------------------------------------------------------
-# Header links (top-right)
-# -----------------------------------------------------------
-aux_links:
-  "Swagger API Reference":
-    - "{{ site.baseurl }}/swagger"
-
-# -----------------------------------------------------------
-# Markdown and theme settings
-# -----------------------------------------------------------
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-# -----------------------------------------------------------
-# Collections (optional - for organizing lots of pages)
-# -----------------------------------------------------------
-# collections:
-#   docs:
-#     output: true
-#     permalink: /:collection/:path/
-
-# -----------------------------------------------------------
-# Plugins (GitHub Pages supports these by default)
-# -----------------------------------------------------------
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+just_the_docs:
+  custom_css:
+    /assets/css/custom.css
