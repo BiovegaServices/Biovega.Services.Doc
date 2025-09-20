@@ -1,8 +1,19 @@
 title: "Biovega Services"
 description: "Official documentation for Biovega d.o.o. digital services"
-url: "https://biovega.github.io"
-baseurl: "/biovega.services.docs"
 
+# GitHub Pages URL configuration
+url: "https://biovega.github.io"
+baseurl: "/biovega-services-docs"   # MUST match your repo name exactly
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+
+# Just the Docs configuration
 just_the_docs:
   custom_css:
-    /assets/CSS/custom.css
+    - "/assets/css/custom.css"  # Optional custom CSS file if you create it
+
+# Navigation & search
+search_enabled: true
+nav_sort: case_insensitive
+color_scheme: light
