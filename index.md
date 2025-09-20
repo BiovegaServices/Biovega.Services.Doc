@@ -43,16 +43,6 @@ This is just the beginning — our roadmap includes expanding to additional serv
 
 ---
 
-## What’s Next
-
-Biovega Services will continue to evolve with:
-
-- **More APIs and Endpoints** — covering ordering, delivery status, and more  
-- **Partner-Specific Dashboards** — giving partners personalized access to their relevant data  
-- **Advanced Integrations** — supporting EDI, webhooks, and event-driven communication  
-
----
-
 Next: [Getting Started]({{ site.baseurl }}/getting-started)
 
 ---
