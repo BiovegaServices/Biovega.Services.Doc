@@ -93,6 +93,13 @@ p a {
     background-color: #f2f2f2;
   }
 
+.logo {
+  display: block;
+  margin: 0 auto 1em;    /* center + space below */
+  max-width: 150px;      /* prevent it from being too large */
+  height: auto;
+}
+
   /* Adjust logo size in Just-the-Docs header */
 .site-logo img {
   max-height: 50px; /* adjust this value to fit your header */
