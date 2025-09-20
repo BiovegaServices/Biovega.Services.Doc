@@ -78,12 +78,15 @@ p a {
   background: rgba(0,0,0,0.05);
 }
 
+/* Completely remove background highlight from active link */
 .sidebar a.active {
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
   font-weight: bold;
   color: #000 !important;
-  background: none !important; /* removes blue background */
-  box-shadow: none !important;
 }
+
 
 /* Sub-navigation links */
 .nav-sub {
