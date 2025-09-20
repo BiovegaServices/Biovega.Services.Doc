@@ -4,8 +4,6 @@ nav_order: 1
 layout: default
 ---
 
-![Biovega Logo]({{ site.baseurl }}/assets/images/biovegaservices.png)
-
 # Biovega Services
 
 Welcome to **Biovega Services** — your central access point to Biovega d.o.o. digital services.  
