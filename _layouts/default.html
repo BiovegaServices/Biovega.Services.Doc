@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ✅ Load external CSS only -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
 </head>
 <body>
   <nav class="sidebar">
@@ -22,19 +22,14 @@
   <main>
     {{ content }}
   </main>
-  <script>
-   const currentPath = window.location.pathname.replace(/\\/g, "/").replace(/\/$/, "");
-  const links = document.querySelectorAll("nav a");
 
-  links.forEach(link => {
-    const linkPath = link.getAttribute("href").replace(/\\/g, "/").replace(/\/$/, "");
-    if (linkPath && currentPath.endsWith(linkPath)) {
-      link.classList.add("active");
-    }
-  });
-    // Loop through links and add "active" class to the one that matches
+  <script>
+    const currentPath = window.location.pathname.replace(/\\/g, "/").replace(/\/$/, "");
+    const links = document.querySelectorAll("nav a");
+
     links.forEach(link => {
-      if (link.getAttribute("href") === current) {
+      const linkPath = link.getAttribute("href").replace(/\\/g, "/").replace(/\/$/, "");
+      if (linkPath && currentPath.endsWith(linkPath)) {
         link.classList.add("active");
       }
     });
