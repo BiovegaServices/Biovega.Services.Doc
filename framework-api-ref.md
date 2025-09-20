@@ -12,6 +12,6 @@ You can view the full interactive REST API documentation here:
 
 ---
 
-Back: [Framework]({{ site.baseurl }}/framework)
+Next: [Tutorial]({{ site.baseurl }}/tutorial)
 
 ---
