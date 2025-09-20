@@ -92,3 +92,17 @@ p a {
   table th {
     background-color: #f2f2f2;
   }
+
+  /* Adjust logo size in Just-the-Docs header */
+.site-logo img {
+  max-height: 50px; /* adjust this value to fit your header */
+  width: auto;
+  margin-right: 8px; /* spacing between logo and title */
+  vertical-align: middle;
+}
+
+/* Optional: slightly tweak the header title spacing */
+.site-title {
+  font-size: 1.3rem; /* adjust text size */
+  font-weight: 600;
+}
