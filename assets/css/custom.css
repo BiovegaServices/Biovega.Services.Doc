@@ -53,6 +53,12 @@ p a {
     flex-direction: column;
   }
   
+.sidebar img.logo {
+  max-width: 80px; 
+  display: block;
+  margin: 0 auto 1em;
+}
+
 
   .sidebar a {
     color: #000 !important;
@@ -61,7 +67,7 @@ p a {
   .sidebar a.active {
     font-weight: bold;
     color: #000;
-    background-color: #dceeff;
+    background-color: none;
     border-radius: 4px;
     padding: 2px 6px;
   }
