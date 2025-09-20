@@ -37,7 +37,7 @@ Our first milestone is the launch of **REST** and **OData** endpoints, allowing 
 - Integrate product data directly into their systems  
 - Build their own applications and workflows on top of Biovega data  
 
-➡ **Explore the API:** [Swagger Documentation (Coming Soon)]({{ site.baseurl }}/swagger)
+➡ **Explore the API:** [API Reference]({{ site.baseurl }}/framework-api-ref)
 
 This is just the beginning — our roadmap includes expanding to additional services and domains to cover more of our customers' and partners' needs.
 
