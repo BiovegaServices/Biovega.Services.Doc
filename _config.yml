@@ -5,6 +5,8 @@ description: "Official documentation for Biovega d.o.o. digital services"
 url: "https://biovega.github.io"
 baseurl: "/biovega-services-docs"   # MUST match your repo name exactly
 
+logo: "/assets/images/biovegaservices.jpg"
+
 # Theme
 remote_theme: just-the-docs/just-the-docs
 
