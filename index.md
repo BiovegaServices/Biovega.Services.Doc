@@ -4,7 +4,7 @@ nav_order: 1
 layout: default
 ---
 
-![Biovega Logo]({{ site.baseurl }}/assets/images/biovega-logo.png)
+![Biovega Logo]({{ site.baseurl }}/assets/images/biovegaservices.png)
 
 # Biovega Services
 
