@@ -96,7 +96,7 @@ p a {
 .logo {
   display: block;
   margin: 0 auto 1em;    /* center + space below */
-  max-width: 150px;      /* prevent it from being too large */
+  max-width: 80px;      /* prevent it from being too large */
   height: auto;
 }
 
