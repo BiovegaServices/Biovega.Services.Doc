@@ -1,1 +1,0 @@
-# Biovega.Services.Doc

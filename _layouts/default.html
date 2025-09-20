@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <style>
+    body { font-family: sans-serif; margin: 0; display: flex; }
+    nav { width: 240px; background: #f4f4f4; padding: 1em; height: 100vh; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
+    main { flex: 1; padding: 2em; }
+    a { display: block; margin: 0.5em 0; color: #0366d6; text-decoration: none; }
+    h1 { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <nav class="sidebar">
+    <h2>ECS AutoMotion Tools</h2>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/getting-started' | relative_url }}">Getting Started</a>
+    <a href="{{ '/guiding-principles' | relative_url }}">Guiding Principles</a>
+    <div class="nav-section">
+      <a href="{{ '/framework' | relative_url }}">Cloud Inventory Framework</a>
+      <div class="nav-sub">
+        <a href="{{ '/framework-present' | relative_url }}">Existing tools</a>
+        <a href="{{ '/framework-future' | relative_url }}">Architecture</a>
+        <a href="{{ '/framework-api-ref' | relative_url }}">API Reference</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+  <script>
+   const currentPath = window.location.pathname.replace(/\\/g, "/").replace(/\/$/, "");
+  const links = document.querySelectorAll("nav a");
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\\/g, "/").replace(/\/$/, "");
+    if (linkPath && currentPath.endsWith(linkPath)) {
+      link.classList.add("active");
+    }
+  });
+    // Loop through links and add "active" class to the one that matches
+    links.forEach(link => {
+      if (link.getAttribute("href") === current) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+</body>
+</html>
